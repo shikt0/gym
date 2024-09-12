@@ -115,12 +115,12 @@
     justify-content: space-between;
   }
   .banner-t{
-    font-size: 4rem;
-    max-height: 4rem;
+    font-size: 400%;
+    height:12%;
   }
   .banner-content{
-    max-width: 29rem;
-    max-height: 25rem;
+    width: 50%;
+    max-height: 25%;
   }
   .s{
     font-size: 8rem;
@@ -131,7 +131,7 @@
     border: none; 
     border-radius: 10px;
     padding: 10px; 
-    width: 10rem; 
+    width: 10%; 
     height: 4rem;
     align-items: center;
     margin-top: -150px;
@@ -143,8 +143,8 @@
     border: none; 
     border-radius: 10px;
     padding: 10px; 
-    width: 11rem; 
-    height: 4rem;
+    width: 10%; 
+    height: 5rem;
     align-items: center;
     margin-top: -450px;
     margin-left: 210px;
@@ -232,14 +232,14 @@
     padding-bottom: 20px;
 }
 .x{
-    width: 23rem;
+    width: 30%;
     height: 17rem;
     margin-right: 4rem;
     border-radius: 1rem;
 }
 
 .b-t{
-    width: 37rem;
+    width: 50%;
     margin: auto;
 }
 table {
@@ -260,11 +260,11 @@ td {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
     gap: 10px; 
-    max-width: 31rem; 
+  
     
 }
 input{
-    width: 23rem;
+    width: 95%;
     height: 35px;
     padding: 10px; 
     border: none;
@@ -294,9 +294,97 @@ select{
     width: 100%;
 }
 
-
-
-
+.up{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.down{
+  width: 80%;
+  height: 30%;
+  background-color: #222222;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  border-radius: 18px;
+  margin: 0 auto;
+}
+.te{
+  margin-top: 25px;
+  width: 95%;
+  height: 80%;
+  border-radius: 18px;
+}
+.con{
+  position: relative;
+  margin-top: 10px;
+  margin-left: 15px;
+  
+}
+.co{
+  position: relative;
+  margin-top: -130px;
+  margin-left: 20px;
+}
+.f1{
+  background-color: #222222;
+  width: 100%;
+  margin-top: 4rem;
+  margin-bottom: 0px;
+}
+.fit{
+  width: 30%;
+}
+.v{
+  color: #E6533C;
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+.n{
+  font-size: 0.8rem;
+  margin-top: 0;
+}
+.f{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+.m{
+  text-align: center;
+  padding: 10px;
+}
+.i{
+    height: 0.5px;
+    background: grey; 
+    width: 80%;
+    
+}
+.end{
+  width: 80%;
+  background-color: #222222;
+  border-radius: 18px;
+  text-align: center;
+  margin: auto;
+}
+.j{
+  padding-top: 15px;
+}
+.end1{
+  padding-bottom: 20px;
+  
+}
+.bu{
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  margin: auto;
+}
+.try{
+  background-color: #767474;
+}
+.o{
+  padding: 30px;
+}
 
 
 
@@ -310,20 +398,40 @@ select{
         max-width: 24px;
         
     }
+    .title{
+      font-size: 2rem;
+    }
+    .banner-content{
+      width: 100%;
+      margin: 0 auto;
+    }
     .banner,
     .em,
     .run,
     .bmih{
         display: block;
     }
+    .banner-t{
+      font-size: 150%;
+      height: 20%
+    }
+
+   
+
+    
     .q{
         margin-top: 4rem;
         margin-left: 2rem;
     }
     .card1{
         margin-top: -250px;
-        margin-left: 0px;
+        margin-left: -10px;
+        width: 30%;
     }
+    .card2{
+      width: 30%;
+      margin-left: 190px;
+  }
     .bg::before {
         content: '';
         position: absolute;
@@ -337,26 +445,60 @@ select{
         margin-bottom: 7rem;
     }
     .run-c{
-        width: 23rem;
+        width: 80%;
         padding-top: 0.2rem;
     }
     .x{
+      width: 80%;
+      height: auto;
         margin-left: 2rem;
         margin-bottom: 1rem;
     }
+    
 
     .b-t{
-        width: 25rem;
+        width: 80%;
     }
+  
+   
     
   
     input{
-        width: 15rem;
+        width: 80%;
+        height: 25px;
     }
     select{
-        width: 16rem;
+        width: 10.5rem;
+        height: 40px;
     }
-   
+    .down{
+      display: block;
+      width: 80%;
+      height: 250%;
+    }
+    .te{
+      width: 95%;
+      margin-top: 10px;
+    }
+    .con{
+      margin-bottom: 70px;
+    }
+    .f{
+      display: block;
+    }
+    .fit{
+      width: 100%;
+    }
+    .bu{
+      display: block;
+      width: 80%;
+    }
+    .try{
+      margin-top: 5px;
+    }
+    .o{
+      padding: 10px;
+    }
 
     
    
