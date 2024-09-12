@@ -359,6 +359,9 @@ select{
     width: 80%;
     
 }
+.u{
+  margin-left: -10px;
+}
 .end{
   width: 80%;
   background-color: #222222;
@@ -447,6 +450,12 @@ select{
     .run-c{
         width: 80%;
         padding-top: 0.2rem;
+    }
+    .p{
+      padding-bottom: 60px;
+    }
+    .u{
+      margin-left: -10px;
     }
     .x{
       width: 80%;
